@@ -1,11 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-     
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KODE by Hacktiv8</title>
+    </head>
+    <body>
+        <h1>Welcome to the Jungle</h1>
+        <h2>Welcome to the Jungle</h2>
+        <h3>Welcome to the Jungle</h3>
+        <h4>Welcome to the Jungle</h4>
+        <h5>Welcome to the Jungle</h5>
+        <h6>Welcome to the Jungle</h6>
+        <p><strong>Something</strong> goes here </p>
+        <a href="contact.html">Contact</a>
+        
+        <img src="images/coffee.png"/>
+        <img src="https://png.pngtree.com/png-vector/20230328/ourmid/pngtree-coffee-cup-ceramic-coffee-transparent-png-image_6673493.png"/>
+        <img src="images/tea.png" alt="no image found"/>        
+
+        <p>
+            Something <br>
+            goes <br>
+            here 
+
+            <hr>
+            
+            <ol>
+                <li>Telur</li>
+                <li>Ayam</li>
+                <li>Kecap</li>
+                <li>Beras</li>
+                <li>Gula</li>
+            </ol>
+
+            <ul>
+                <li>Telur</li>
+                <li>Ayam</li>
+                <li>Kecap</li>
+                <li>Beras</li>
+                <li>Gula</li>
+            </ul>
+        </p>
+        
+        <!-- Form Penjualan (Comment) -->
+        <!-- Form (POST untuk pengiriman datanya) -->
+        <form action="process.php" method="POST">
+            <input type="text" placeholder="Nama"/> <br>
+            <input type="number" placeholder="Umur"/> <br>
+            <textarea name="alamat" id="" cols="30" rows="10"></textarea><br>
+            
+            <!-- span: untuk label -->
+            <span>Hobi:</span> <br>
+            <input type="checkbox" name="hobi" value="membaca">Membaca<br> 
+            <input type="checkbox" name="hobi" value="basket">Bermain Basket<br> 
+            
+            <span>Jenis Kelamin:</span> <br>                
+            <input type='radio' name="gender" value="male"> Pria <br>
+            <input type='radio' name="gender" value="female"> Wanita <br>
+            
+            <input type='date'> <br>
+            
+            <select name="barang">
+                <option value="sepatu">Sepatu</option>
+                <option value="baju">Baju</option>
+                <option value="celana">Celana</option>
+            </select> <br>
+
+            <input type="file"> <br>
+
+            <!-- <button type="submit">Submit</button>
+            <button type="reset">Reset</button> -->
+            <br>
+            <input type="button" value="Click me">
+            <input type="reset" value="Clear data">
+        </form>
+
+        <!-- untuk merapihkan -->
+        <div>
+            <h1>Ini adalah judul</h1>
+            <p>Ini adalah paragraf</p>
+        </div>
+
+        <table border="1">
+            <tr>
+                <th>Nama</th>
+                <th>Umur</th>
+                <th>Alamat</th>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Andi</td>
+                <td colspan="2">20 - Jakarta</td>
+                <!-- <td>Jakarta</td> -->
+            </tr>
+            
+            <tr>
+                <!-- <td>Budi</td> -->
+                <td>25</td>
+                <td>Bandung</td>
+            </tr>
+
+            <tr>
+                <td>Caca</td>
+                <td>30</td>
+                <td>Surabaya</td>
+            </tr>
+        </table>
+    </body>
 </html>
+
+<!-- Bold: <strong>, <b>
+Italic: <em>, <i>
+Underline: <u>
+
+<i class="fa fa-pencil"></i> -->
+<!-- href: link to another page -->
+<!-- href: link to another page -->
